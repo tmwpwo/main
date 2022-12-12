@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CTF Game</title>
+  <style>
+    body {
+      background-color: #333;
+      color: #fff;
+      font-family: sans-serif;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      text-align: center;
+    }
+    h1 {
+      font-size: 2em;
+      margin-bottom: 0.5em;
+    }
+    .challenges {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .challenge {
+      background-color: #555;
+      border-radius: 5px;
+      padding: 1em;
+      margin: 1em;
+      width: 30%;
+      text-align: left;
+    }
+    .challenge h2 {
+      font-size: 1.5em;
+      margin-bottom: 0.5em;
+    }
+    .challenge p {
+      font-size: 0.9em;
+      margin: 0;
+    }
+    .challenge .flag {
+      font-family: monospace;
+      font-size: 0.9em;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>CTF Game</h1>
+    <h1>Hello {{.Name}}</h1>
+    <p>Welcome to the CTF game! Below are a list of challenges. Click on a challenge to view the details and submit a flag to earn points.</p>
+    <div class="challenges">
+      <div class="challenge">
+        <h2>Challenge 1</h2>
+        <p>Description: This is the first challenge. Can you solve it?</p>
+        <p>Points: 100</p>
+        <h1 style="color:rgb(85, 85, 85);">encryption: hex</h1>
+        <p hidden>67 6f 6f 64 20 6a 6f 62 20 79 6f 75 20 66 6f 75 6e 64 20 69 74</p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
