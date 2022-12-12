@@ -1,4 +1,5 @@
 // MY FIRST BACKEND TO A SERVER IN GOLANG 
+// server was created for custom made CTF game
 package main
 
 import (
