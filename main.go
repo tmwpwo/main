@@ -1,3 +1,4 @@
+// MY FIRST BACKEND TO A SERVER IN GOLANG 
 package main
 
 import (
